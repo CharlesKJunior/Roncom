@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Roncom Technology Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-network-wired"></i>
+                    <span>RONCOM</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="tel:+256XXXXXXXXX" class="btn btn-outline"><i class="fas fa-phone"></i> Call Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for professional networking solutions across Uganda</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to improve your network? Contact Roncom today for reliable, professional networking solutions anywhere in Uganda.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+256 XXX XXX XXX</p>
+                                <p>Available 24/7 for emergencies</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>info@roncom.com</p>
+                                <p>We respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Service Areas</h4>
+                                <p>Nationwide across Uganda</p>
+                                <p>Kampala, Rukungiri, Mbarara, and all regions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                                <p>Emergency services: 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h4>Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="location">Your Location *</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Kampala, Rukungiri, Mbarara" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="network-config">Network Configuration</option>
+                                <option value="wifi-setup">WiFi Network Setup</option>
+                                <option value="troubleshooting">Troubleshooting</option>
+                                <option value="cabling">Cable Clipping & Installation</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your networking needs..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Map -->
+    <section class="section coverage-map-section">
+        <div class="container">
+            <h2 class="text-center">Our Service Coverage</h2>
+            <p class="section-subtitle text-center">We provide networking services throughout Uganda</p>
+            
+            <div class="coverage-list">
+                <div class="coverage-region">
+                    <h3><i class="fas fa-map-pin"></i> Western Uganda</h3>
+                    <ul>
+                        <li>Rukungiri</li>
+                        <li>Mbarara</li>
+                        <li>Fort Portal</li>
+                        <li>Kabale</li>
+                        <li>Kasese</li>
+                    </ul>
+                </div>
+                
+                <div class="coverage-region">
+                    <h3><i class="fas fa-map-pin"></i> Central Uganda</h3>
+                    <ul>
+                        <li>Kampala</li>
+                        <li>Entebbe</li>
+                        <li>Jinja</li>
+                        <li>Mukono</li>
+                        <li>Masaka</li>
+                    </ul>
+                </div>
+                
+                <div class="coverage-region">
+                    <h3><i class="fas fa-map-pin"></i> Other Regions</h3>
+                    <ul>
+                        <li>Gulu (Northern)</li>
+                        <li>Mbale (Eastern)</li>
+                        <li>Lira</li>
+                        <li>Arua</li>
+                        <li>And nationwide!</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="coverage-note">
+                <p><i class="fas fa-car"></i> <strong>We come to you!</strong> No matter where you are located in Uganda, we'll travel to your location to provide professional networking services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-network-wired"></i>
+                        <span>RONCOM</span>
+                    </a>
+                    <p>Professional networking solutions across Uganda. Configuring switches, access points, consultations, and complete network setup.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Network Configuration</a></li>
+                        <li><a href="services.html">WiFi Setup</a></li>
+                        <li><a href="services.html">Troubleshooting</a></li>
+                        <li><a href="services.html">Cable Clipping</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +256 XXX XXX XXX</li>
+                        <li><i class="fas fa-envelope"></i> info@roncom.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Serving all Uganda: Kampala, Rukungiri, Mbarara, Nationwide</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Roncom Technology Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
